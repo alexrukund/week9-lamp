@@ -16,7 +16,7 @@ resource "local_file" "ssh_key" {
 }
 
 resource "aws_lightsail_instance" "server1" {
-  name = "lamp-server1"
+  name = "lamp-server2"
   blueprint_id = "centos_7_2009_01"
   bundle_id = "medium_1_0"
   availability_zone = "us-east-1a"
